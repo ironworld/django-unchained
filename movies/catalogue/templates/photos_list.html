@@ -1,0 +1,11 @@
+<html>
+     <head>
+        <title>Catalogue Photos</title>
+     </head>
+     <body>
+       {% for photo in photo_list %}
+       <h1>{{ photo.title }}</h1>
+       <h2>{{ photo.uploaded }}</h2>
+       {% endfor %}
+     </body>
+</html>
